@@ -6,17 +6,19 @@ GDP Data Extraction and Processing Using Python
 
 ---
 
-# Project Overview
+## Project Overview
 
 This project demonstrates a practical data engineering and data analytics workflow using Python. The objective of the project is to extract GDP data for the top economies in the world from a web source, clean and transform the data, convert GDP values from Million USD to Billion USD, and export the processed data into a CSV file.
+
+## Notebook Workflow
 
 ![Notebook Workflow](Images/notebook_workflow.png)
 
 The project uses:
 
-* Python
-* Pandas
-* NumPy
+- Python
+- Pandas
+- NumPy
 * Jupyter Notebook
 * Web table extraction using Pandas
 
@@ -151,7 +153,7 @@ df.to_csv("Largest_economies.csv", index=False)
 
 ---
 
-# Final Output
+## Final Output
 
 ![Final Output](Images/final_output.png)
 
